@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="baidu-site-verification" content="2MKKT6mbuL" />
+    <title>邻家好饭</title>
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT">
+    <META HTTP-EQUIV="expires" CONTENT="0">
+ <script  type="text/javascript">  
+    function sumb(){     
+       var allFan = document.getElementsByName("vehicle");<!-- 点的所有的餐 -->
+       var allli = document.getElementById("fenshu");<!-- 份数 -->
+       var jiner = document.getElementById("jiner");<!--  金额 -->
+       var text = document.getElementById("textarea");<!-- 菜单名称 -->
+      
+       var zongjin_er=0;
+        var allcandan ="";
+           var  fenshu =0;
+       for(var i=0;i<allFan.length;i++){
+       	 var one_fan =allFan[i];
+        if(one_fan.checked){
+          var vale =one_fan.value; 
+          fenshu++;
+          var  jiner_mingcheng = vale.split("_");
+          zongjin_er =zongjin_er+Number(jiner_mingcheng[1].replace("元",""));
+          allcandan=allcandan+","+jiner_mingcheng[0];
+         }
+       }
+        allli.value =fenshu+"份"; <!--  选了多少份 -->
+        jiner.value =zongjin_er+"元";<!--  多少钱 -->
+       text.value =allcandan.substring(1,allcandan.length);<!--  定的什么餐 -->
+    }
+</script>
+    
+</head>
+<body>
+  <ol id ="ol">
+  <li ><input type="checkbox"  onclick = "sumb()" name="vehicle" value="名称_多少元"/>凉拌西红柿 8元</li>
+  <li ><input type="checkbox"  onclick = "sumb()" name="vehicle" value="凉拌西红柿_2元"/>凉拌西红柿 2元</li>
+  <li ><input type="checkbox" onclick = "sumb()"  name="vehicle" value="凉拌西红柿_3元"/>凉拌西红柿 3元</li>
+  <li ><input type="checkbox"  onclick = "sumb()" name="vehicle" value="凉拌西红柿_4元"/>凉拌西红柿 4元</li>
+  <li ><input type="checkbox"  onclick = "sumb()" name="vehicle" value="凉拌西红柿_5元"/>凉拌西红柿 5元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_6元"/>凉拌西红柿 6元</li> 
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+    <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+  <li ><input type="checkbox" onclick = "sumb()" name="vehicle" value="凉拌西红柿_7元"/>凉拌西红柿 7元</li>
+
+ </ol>
+ 
+ <p><button type ="button" id ="update" onclick ="sumb()" name ="ok" >确定</button></p>
+  <p>份数：<input id="fenshu" type="text" name="fname" /> </p>
+ <p> 总金额：<input id="jiner" type="text" name="fname" /> </p>
+ <textarea id ="textarea" cols=200 rows =5> </textarea>
+</body>
+
+
+</html>
